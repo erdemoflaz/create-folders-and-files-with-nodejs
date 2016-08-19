@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'url', '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json nodejstask@1.0.0 No description
+6 warn package.json nodejstask@1.0.0 No repository field.
+7 warn package.json nodejstask@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'url', null ]
+10 verbose cache add name=undefined spec="url" args=["url",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'url',
+11 verbose parsed url   path: 'url',
+11 verbose parsed url   href: 'url' }
+12 silly lockFile 81736358-url url
+13 verbose lock url /home/erdemoflaz/.npm/81736358-url.lock
+14 silly lockFile 81736358-url url
+15 silly lockFile 81736358-url url
+16 verbose addNamed [ 'url', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile b781997a-url url@
+19 verbose lock url@ /home/erdemoflaz/.npm/b781997a-url.lock
+20 silly addNameRange { name: 'url', range: '*', hasData: false }
+21 verbose request where is /url
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id f1d53720064827bb
+24 verbose url raw /url
+25 verbose url resolving [ 'https://registry.npmjs.org/', './url' ]
+26 verbose url resolved https://registry.npmjs.org/url
+27 verbose request where is https://registry.npmjs.org/url
+28 info trying registry request attempt 1 at 18:44:55
+29 verbose etag "4T46X14OT2DHNVZ6GY1FH7OZY"
+30 http GET https://registry.npmjs.org/url
+31 http 200 https://registry.npmjs.org/url
+32 silly registry.get cb [ 200,
+32 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     etag: '"1OPT7DPE2ZC35YVGZIU0GJ8VI"',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'content-encoding': 'gzip',
+32 silly registry.get     'cache-control': 'max-age=300',
+32 silly registry.get     'content-length': '3575',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     date: 'Fri, 19 Aug 2016 15:45:03 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '110',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '3',
+32 silly registry.get     'x-timer': 'S1471621503.305843,VS0,VE0',
+32 silly registry.get     vary: 'Accept-Encoding' } ]
+33 silly addNameRange number 2 { name: 'url', range: '*', hasData: true }
+34 silly addNameRange versions [ 'url',
+34 silly addNameRange   [ '0.4.9',
+34 silly addNameRange     '0.7.9',
+34 silly addNameRange     '0.10.0',
+34 silly addNameRange     '0.10.1',
+34 silly addNameRange     '0.10.2',
+34 silly addNameRange     '0.10.3',
+34 silly addNameRange     '0.11.0' ] ]
+35 verbose addNamed [ 'url', '0.11.0' ]
+36 verbose addNamed [ '0.11.0', '0.11.0' ]
+37 silly lockFile c8d1c0c7-url-0-11-0 url@0.11.0
+38 verbose lock url@0.11.0 /home/erdemoflaz/.npm/c8d1c0c7-url-0-11-0.lock
+39 silly lockFile 5b1eaca3-try-npmjs-org-url-url-0-11-0-tgz https://registry.npmjs.org/url/-/url-0.11.0.tgz
+40 verbose lock https://registry.npmjs.org/url/-/url-0.11.0.tgz /home/erdemoflaz/.npm/5b1eaca3-try-npmjs-org-url-url-0-11-0-tgz.lock
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/url/-/url-0.11.0.tgz',
+41 verbose addRemoteTarball   '3838e97cfc60521eb73c525a8e55bfdd9e2e28f1' ]
+42 info retry fetch attempt 1 at 18:45:06
+43 verbose fetch to= /tmp/npm-14390-Gjo1Gzd4/registry.npmjs.org/url/-/url-0.11.0.tgz
+44 http GET https://registry.npmjs.org/url/-/url-0.11.0.tgz
+45 error fetch failed https://registry.npmjs.org/url/-/url-0.11.0.tgz
+46 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+47 info retry fetch attempt 2 at 18:45:46
+48 verbose fetch to= /tmp/npm-14390-Gjo1Gzd4/registry.npmjs.org/url/-/url-0.11.0.tgz
+49 http GET https://registry.npmjs.org/url/-/url-0.11.0.tgz
+50 http 200 https://registry.npmjs.org/url/-/url-0.11.0.tgz
+51 silly lockFile 5b1eaca3-try-npmjs-org-url-url-0-11-0-tgz https://registry.npmjs.org/url/-/url-0.11.0.tgz
+52 silly lockFile 5b1eaca3-try-npmjs-org-url-url-0-11-0-tgz https://registry.npmjs.org/url/-/url-0.11.0.tgz
+53 silly lockFile c8d1c0c7-url-0-11-0 url@0.11.0
+54 silly lockFile c8d1c0c7-url-0-11-0 url@0.11.0
+55 silly lockFile b781997a-url url@
+56 silly lockFile b781997a-url url@
+57 error Error: EACCES, mkdir '/home/erdemoflaz/.npm/url/0.11.0'
+57 error  { [Error: EACCES, mkdir '/home/erdemoflaz/.npm/url/0.11.0']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/home/erdemoflaz/.npm/url/0.11.0',
+57 error   parent: 'nodejstask' }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.19.0-61-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "url" "--save"
+61 error cwd /home/erdemoflaz/Desktop/nodejstask
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /home/erdemoflaz/.npm/url/0.11.0
+65 error code EACCES
+66 error errno 3
+67 error stack Error: EACCES, mkdir '/home/erdemoflaz/.npm/url/0.11.0'
+68 verbose exit [ 3, true ]
